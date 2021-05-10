@@ -1,0 +1,48 @@
+/*
+ * @NOTE: Prepend a `~` to css file paths that are in your node_modules
+ *        See https://github.com/webpack-contrib/sass-loader#imports
+ */
+body {
+  position: relative;
+  height: 100vh;
+}
+
+.pane {
+  display: flex;
+}
+
+.pane > * {
+  padding: 16px;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.ant-upload-list {
+  margin-bottom: 16px;
+  max-height: 150px;
+  overflow: auto;
+}
+
+.ant-carousel {
+  margin-top: 10px;
+  max-width: 40vw;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mr-2 {
+  margin-right: 10px;
+}
