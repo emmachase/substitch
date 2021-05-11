@@ -106,7 +106,7 @@ export function renderTexture(
 ) {
   const canvas = destCtx.canvas;
   if (textureType === "normal") {
-    destCtx.fillStyle = "#8080FF";
+    destCtx.fillStyle = "#7F7FFF";
   } else {
     destCtx.fillStyle = "#000000";
   }
